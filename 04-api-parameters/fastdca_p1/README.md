@@ -1,6 +1,9 @@
 Name : Ayesha Waseem
+
 Roll num : 00477764
+
 Date : 7-05-2025
+
 Slot: 9-12 Friday
  
  FastAPI Assignment – Path, Query, and Body Parameters
