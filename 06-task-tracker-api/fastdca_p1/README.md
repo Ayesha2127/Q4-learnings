@@ -1,3 +1,12 @@
+Name : Ayesha Waseem
+
+Roll num : 00477764
+
+Date : 7-05-2025
+
+Slot: 9-12 Friday
+
+
 FastDCA Task Tracker API – Phase 1
 A modular, scalable task tracking API built with FastAPI, designed to support efficient task management workflows. This project is part of the Q4 Learnings initiative and represents the foundational backend for a task tracker application.
 
