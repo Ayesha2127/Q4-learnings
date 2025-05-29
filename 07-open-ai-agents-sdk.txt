@@ -1,0 +1,26 @@
+                           
+                                                     <-- TASK : 7 -->
+
+1)Agent class ko @dataclass is liye banaya gaya kyun ke yeh sirf data hold karti hai jaise name, tools, instructions.
+Dataclass use krne se
+ init,
+ repr,
+ eq 
+jaise methods auto bn jate hain.
+Code clean rehta hai aur readable banta hai.
+
+2a) Instructions yaani system prompt ko string bhi rakh sakte hain aur function bhi.
+Agar string ho to static prompt milega.
+Agar function ho to runtime pe dynamic prompt generate ho sakta hai, jese user ke data ya waqt k hisaab se.
+
+2b) User prompt Runner.run() me is liye pass hota hai kyun ke agent static hai, aur prompt har dafa new hota hai.
+Runner ka run method @classmethod hai, yani object bnaye baghair bhi run ho jata hai.
+Agent reuse ho sakta hai multiple prompts ke liye.
+
+3)Runner class ka kaam agent ko execute krna hai.
+Tools chalana, LLM se jawab lena, context manage krna sab runner krta hai.
+Runner mostly stateless hoti hai.
+
+4)TContext ek generic type hai.
+Yani hum khud decide kr sakte hein ke context kis type ka ho dict, model, ya custom class.
+Type-checking easy ho jati hai aur har agent ka context customize ho jata hai.
